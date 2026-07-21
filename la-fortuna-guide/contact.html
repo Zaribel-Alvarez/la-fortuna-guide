@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GT7CK6E1R6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GT7CK6E1R6');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Visit La Fortuna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-green-700 p-4 text-white shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold italic">visitlafortuna.lat</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto mt-10 px-4 max-w-2xl">
+        <div class="bg-white p-10 rounded-lg shadow-md">
+            <h1 class="text-3xl font-bold mb-6 text-gray-900">Contact Us</h1>
+            <p class="mb-6 text-gray-600">Have questions about your upcoming trip to La Fortuna? We'd love to help!</p>
+
+            <!-- Formulario de contacto actualizado para recibir correos -->
+<form action="https://formsubmit.co/silvamaycol107@gmail.com" method="POST" class="space-y-4">
+    
+    <!-- Configuración extra de FormSubmit -->
+    <input type="hidden" name="_subject" value="Nuevo mensaje de VisitLaFortuna.lat!">
+    <input type="hidden" name="_next" value="https://visitlafortuna.lat/thanks.html"> <!-- Opcional: página de agradecimiento -->
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" name="name" required class="w-full p-3 border rounded-lg focus:ring-green-500 focus:border-green-500 outline-none">
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" name="email" required class="w-full p-3 border rounded-lg focus:ring-green-500 focus:border-green-500 outline-none">
+    </div>
+    <div>
+        <label class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea name="message" required class="w-full p-3 border rounded-lg h-32 focus:ring-green-500 focus:border-green-500 outline-none"></textarea>
+    </div>
+
+    <button type="submit" class="bg-green-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-800 transition w-full md:w-auto">
+        Send Message
+    </button>
+</form>
